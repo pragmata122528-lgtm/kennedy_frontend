@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.tanstack/**
+.nitro/
+
+# Environment files and secrets (NEVER commit to GitHub / Lovable)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env.staging
+*.local
+
+# Keep .env.example tracked
+!.env.example
+
+# Secret keys and certificates
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+.secrets*
+credentials*.json
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
